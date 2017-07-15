@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compaitable" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main_style.min.css">
+    <link rel="stylesheet" href="css/max768.min.css" media="(max-width: 768px)">
+    <link rel="stylesheet" href="css/min769.min.css" media="(min-width: 769px)">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/62db1f9eca.js"></script>
+    <link rel="shortcut icon" type="image/png" href="images/favicon.ico">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300%7CLora">
+    <title>Arun's Portfolio</title>
+</head>
+<body>
+    <div class="containerf">
+        <header class="rowf">
+            <div class="col-2 logo"><img src="images/logo.png" alt="logo"></div>
+            <div class="col-10 main">
+                <h1>arun mohan</h1>
+                <h4>Front-End Web Dev</h4>
+            </div>
+        </header>
+        <div class="rowf col-12 button">
+            <div class="dropdown">
+                <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">☰
+                <span class="caret"></span></button>
+                <ul class="dropdown-menu ">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#works">Featured Works</a></li>
+                    <li><a href="#contacts">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="rowf col-12 nav-bar">
+            <ul>
+                <li class="nav-element ele"><a class="link" href="#">Home</a></li>
+                <li class="nav-element ele"><a class="link" href="#">About</a></li>
+                <li class="nav-element ele"><a class="link" href="#works">Featured Works</a></li>
+                <li class="nav-element ele"><a class="link" href="#contacts">Contact</a></li>
+            </ul>
+        </div>
+        <div class="rowf">
+            <div class="col-12"><img src="images/vector1680.jpg" alt="large image" class="image"></div>
+        </div>
+        <section class="project">
+            <div class="rowf">
+                <div class="col-12 title-portfolio" id="works"><h2>featured works</h2></div>
+            </div>
+            <div class="rowf">
+                <div class="col-4 content">
+                    <img src="images/html5.jpg" alt="html5" class="image text" data-toggle="modal" data-target="#html">
+                    <h3>HTML5</h3>
+                    <p>Udacity Front-End Nanodegree Program</p>
+                    <a href="http://www.github.com">www.github.com</a>
+                </div>
+                <div class="col-4 content">
+                    <img src="images/css3.jpg" alt="css3" class="image text" data-toggle="modal" data-target="#css3">
+                    <h3>CSS3</h3>
+                    <p>Udacity Front-End Nanodegree Program</p>
+                    <a href="http://www.github.com">www.github.com</a>
+                </div>
+                <div class="col-4 content"><img src="images/js.jpeg" alt="js" class="image text" data-toggle="modal" data-target="#js">
+                    <h3>JS</h3>
+                    <p>Udacity Front-End Nanodegree Program</p>
+                    <a href="http://www.github.com">www.github.com</a>
+                </div>
+            </div>
+            <footer class="rowf col-12" id="contacts">
+                <ul>
+                    <li><a href="#" target="blank"><i class="fa fa-github-alt fa-2x"></i></a></li>
+                    <li><a href="#" target="blank"><i class="fa fa-facebook fa-2x"></i></a></li>
+                    <li><a href="#" target="blank"><i class="fa fa-twitter fa-2x"></i></a></li>
+                    <li><a href="#" target="blank"><i class="fa fa-google fa-2x"></i></a></li>
+                    <li><a href="#" target="blank"><i class="fa fa-home fa-2x"></i></a></li>
+                </ul>
+            </footer>
+        </section>
+    </div>
+    <!-- html code for modals -->
+    <div class="modal fade" id="html" tabindex="-1" role="dialog" aria-label="myModelLabel1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabal1">HTML5</h4>
+                </div>
+                <div class="modal-body">
+                    <p>HTML5 is a markup language used for structuring and presenting content on the World Wide Web. It is the fifth and current version of the HTML standard.</p>
+                </div>
+            </div>
+            <div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">close</button></div>
+        </div>
+    </div>
+        <div class="modal fade" id="css3" tabindex="-1" role="dialog" aria-label="myModelLabel2" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabal2">CSS</h4>
+                </div>
+                <div class="modal-body">
+                    <p>CSS is a style sheet language used for describing the look and formatting of a document written in a markup language.CSS3 is a latest standard of css earlier versions(CSS2).The main difference between css2 and css3 is follows. Media Queries. Namespaces. Selectors Level 3.</p>
+                </div>
+            </div>
+            <div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">close</button></div>
+        </div>
+    </div>
+        <div class="modal fade" id="js" tabindex="-1" role="dialog" aria-label="myModelLabel3" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabal3">JS</h4>
+                </div>
+                <div class="modal-body">
+                    <p>JavaScript often abbreviated as JS, is a high-level, dynamic, untyped, object-based, multi-paradigm, and interpreted programming language. Alongside HTML and CSS, JavaScript is one of the three core technologies of World Wide Web content production.</p>
+                </div>
+            </div>
+            <div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">close</button></div>
+        </div>
+    </div>
+</body>
+
+</html>
